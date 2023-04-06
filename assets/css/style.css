@@ -14,10 +14,6 @@ header {
   color: #fff;
 }
 
-/* 
-What happens when we set the display property to flex?
-The flex container becomes flexible 
-*/
 nav {
   display: flex;
   background-color: #885d3e;
@@ -30,10 +26,7 @@ nav a {
   text-align: center;
 }
 
-/* 
-What is the flex-wrap property?
-It specifies whether the flex items should wrap or not 
-*/
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -47,10 +40,7 @@ aside {
   margin: 10px;
 }
 
-/* 
-What does the justify-content property do?
-It is used to align the flex items; in our case, the product cards 
-*/
+
 .products {
   flex: 4;
   background-color: #fff;
@@ -60,12 +50,7 @@ It is used to align the flex items; in our case, the product cards
   justify-content: center;
 }
 
-/* 
-What is the flex property a shorthand property for?
-It is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties 
-What is it doing here?
-We are making the product card not growable, not shrinkable, and with an initial length of 400px 
-*/
+
 .card {
   border-style: solid;
   border-width: 1px;
